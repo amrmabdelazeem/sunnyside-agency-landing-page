@@ -33,8 +33,6 @@ main{
 .logo{
     width: 7rem;
 }
-.intro{
-}
 .intro h1{
     margin-top: 5rem;
     font-size: 2rem;
@@ -44,11 +42,7 @@ main{
     margin-bottom: 4rem;
 }
 
-.mid-section{
-    /* height: 400px; */
-}
-
-.egg img, .cup img{
+.egg img, .cup img, .graphic-design img, .photography img{
     max-width: 100%;
     max-height: 100%;
     height: auto;
@@ -101,4 +95,22 @@ main{
     top: 15px;
     left: -5px;
     z-index: -1;
+}
+.graphic-design, .photography{
+    position: relative;
+}
+.graphic-text, .photography-text{
+    position: absolute;
+    bottom: 50px;
+    padding: 0 2rem;
+}
+.graphic-text h2, .graphic-text p{
+    color: var(--graphic-design-text);
+}
+.photography-text h2, .photography-text p{
+    color: var(--photography-text);
+}
+
+.graphic-text h2, .photography-text h2{
+    margin-bottom: 2rem;
 }
