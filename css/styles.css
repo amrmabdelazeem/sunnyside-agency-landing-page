@@ -167,7 +167,7 @@ main{
     gap: 3rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1400px) {
     .header{
         background-image: url(../images/desktop/image-header.jpg);
         background-size: 100%;
@@ -193,11 +193,37 @@ main{
         margin-left: 5rem;
         width: 70%;
     }
+    a, .icons, button{
+        cursor: pointer;
+    }
+
     .stand-out .link-line, .transform .link-line{
         margin-left: 5rem;
         width: 75%;
     }
     .stand-line{
         opacity: 1;
+    }
+    .graphic-text, .photography-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .graphic-text p, .photography-text p{
+        width: 50%;
+    }
+    .testimonials{
+        margin: 4rem 0;
+    }
+    .testimonials p{
+        width: 80%;
+    }
+    .footer a:hover{
+        color: var(--white);
+    }
+    .icon:hover{
+        filter: brightness(0) invert(1);  
+
     }
 }
