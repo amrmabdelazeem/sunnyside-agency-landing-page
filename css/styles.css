@@ -142,3 +142,22 @@ main{
     color: var(--grayish-blue);
     font-size: .8rem;
 }
+.footer{
+    padding: 4rem 1.5rem;
+    background-color: hsl(168, 34%, 71%);
+}
+.footer .logo{
+    filter: invert(48%) sepia(10%) saturate(1537%) hue-rotate(118deg) brightness(98%) contrast(92%);
+    margin-bottom: 3rem;
+    width: 170px;
+}
+.footer a{
+    text-decoration: none;
+    color: var(--footer-text);
+    font-family: 'Barlow', sans-serif; 
+    font-size: 1.2rem;
+}
+.footer .icons{
+    margin-top: 5rem;
+    gap:2rem;
+}
