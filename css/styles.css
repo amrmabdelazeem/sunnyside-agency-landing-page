@@ -62,8 +62,8 @@ main{
     width: 0;
     height: 0;
     position: absolute;
-    top: 70px;
-    right: 2.5rem;
+    top: -29px;
+    right: 0;
     z-index: 1;
 }
 .menu a{
@@ -222,15 +222,41 @@ main{
         padding-top: 3rem;
     }
     .nav{
-        height: 100px;
-        margin-bottom: 2rem;
+        height: auto;
+        margin-bottom: 6rem;
     }
     .nav .logo{
         width: 10rem;
     }
+    .menu{
+        background-color: transparent;
+        position: static;
+        padding: 0;
+        width: auto;
+        gap: 3.5rem;
+        margin-right: 2rem;
+    }
+    .menu a{
+        margin: 0;
+        color: var(--white);
+        font-size: 1.1rem;
+    }
+    .menu button{
+        background-color: var(--white);
+        color:var(--desaturated-blue);
+        padding: 1rem 1.6rem;
+    }
+    .menu button:hover{
+        color: var(--white);
+        background-color: #6eceff;
+    }
+    .triangle{
+        display: none;
+    }
     .intro h1{
         margin-top: 0;
         font-size: 3rem;
+        margin-bottom: 4rem;
     }
     .stand-out h2,.transform h2{
         margin-left: 5rem;
