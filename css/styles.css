@@ -11,6 +11,13 @@
     --white:#fff;
 
 }
+html {
+    height: 100%;
+  }
+body {
+    min-height: 100%;
+ }
+    
 
 /* font-family: 'Barlow', sans-serif; */
 /* font-family: 'Fraunces', serif; */
