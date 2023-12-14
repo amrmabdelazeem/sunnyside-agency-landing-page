@@ -29,6 +29,8 @@ p, span{
 }
 main{
     overflow: hidden;
+    min-height: 100%;
+
 }
 .header{
     background-image: url(../images/mobile/image-header.jpg);
