@@ -48,7 +48,7 @@ main{
     height: auto;
     width: auto;
 }
-.transform, .stand-out{
+.transform, .stand-out, .testimonials{
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
@@ -113,4 +113,12 @@ main{
 
 .graphic-text h2, .photography-text h2{
     margin-bottom: 2rem;
+}
+.testimonials h1{
+    margin-bottom: 5rem;
+}
+.testimonials img{
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
 }
