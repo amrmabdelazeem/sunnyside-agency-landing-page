@@ -161,3 +161,25 @@ main{
     margin-top: 5rem;
     gap:2rem;
 }
+
+.footer .links{
+    gap: 3rem;
+}
+
+@media (min-width: 992px) {
+    .stand-out h2,.transform h2{
+        margin-left: 5rem;
+        width: 55%;
+    }
+    .stand-out p, .transform p{
+        margin-left: 5rem;
+        width: 70%;
+    }
+    .stand-out .link-line, .transform .link-line{
+        margin-left: 5rem;
+        width: 75%;
+    }
+    .stand-line{
+        opacity: 1;
+    }
+}
