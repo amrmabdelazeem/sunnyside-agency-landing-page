@@ -54,6 +54,18 @@ main{
     background-color: var(--white);
     padding: 2rem;
 }
+.triangle{
+    border-right: 0px solid transparent;
+    border-left: 30px solid transparent;
+    border-top: 0px solid #fff;
+    border-bottom: 30px solid #fff;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 70px;
+    right: 2.5rem;
+    z-index: 1;
+}
 .menu a{
     text-decoration: none;
     color: var(--d-grayish-blue);
